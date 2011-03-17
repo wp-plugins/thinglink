@@ -6,8 +6,6 @@ Requires at least: 3.0
 Tested up to: 3.0.1
 Stable tag: 1.0.2
 
-ThingLink, a provider of image interaction tools, changes how people interact with photos by transforming them into a navigational surface for search, commerce, and social connection.
-
 This plugin provides a very simple way to add the Thinglink script to your whole website.
 
 == Description ==
