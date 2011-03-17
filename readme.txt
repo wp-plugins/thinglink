@@ -1,12 +1,14 @@
 === Plugin Name ===
-Contributors: ryanjwilke, thinglink
+Contributors: ryanjwilke,thinglink
 Donate link: http://ryanjwilke.com/
 Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
 Tested up to: 3.0.1
 Stable tag: 1.0.2
 
-A very simple way to add the Thinglink script to your whole website.
+ThingLink, a provider of image interaction tools, changes how people interact with photos by transforming them into a navigational surface for search, commerce, and social connection.
+
+This plugin provides a very simple way to add the Thinglink script to your whole website.
 
 == Description ==
 
@@ -35,14 +37,13 @@ It's a very simple, online tool that allows you to easily create clickable tags 
 * New embed code 
 * Settings dialog now automatically fetches Thinglink ID if the user has a valid session
 
-
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
 "Thinglink is a product identification tool that makes it easy to add clickable tags to any image on the web and share the tagged images on social networks. Any publisher or brand can distribute tagged images to bloggers and other publishers and still receive traffic back to the original image source." — Thinglink.com
 
 = Where do I find my Thinglink ID? =
-You can find your Thinglink ID from your account page on Thinglink.com.
+You can find your Thinglink ID from your account page on [Thinglink.com](http://www.thinglink.com/action/account).
 
 == Screenshots ==
 

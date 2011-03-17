@@ -1,7 +1,7 @@
 <?php
 
 	/*
-	Plugin Name: Thinglink
+	Plugin Name: Official Thinglink Plugin
 	Plugin URI: http://thinglink.com/
 	Description: A simple way to add the Thinglink script to your whole website.
 	Version: 1.0.2
