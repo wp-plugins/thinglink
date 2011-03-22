@@ -4,7 +4,7 @@
 	Plugin Name: Official Thinglink Plugin
 	Plugin URI: http://thinglink.com/
 	Description: A simple way to add the Thinglink script to your whole website.
-	Version: 1.0.2
+	Version: 1.0.3
 	Author: Thinglink (Originally Ryan J Wilke, Freelance Interaction Designer, http://ryanjwilke.com)
 	Author URI: http://thinglink.com/
 	*/
@@ -13,9 +13,9 @@
 	class RJW_Thinglink {
 		
 		const PLUGIN_NAME = "Thinglink";
-		const PLUGIN_VERSION = "1.0.2";
+		const PLUGIN_VERSION = "1.0.3";
 		const PLUGIN_CONFIG_HOOK = "rjw-thinglink-config";
-		const PLUGIN_CONFIG_URL = "/rjw-thinglink/rjw-thinglink-config.php";
+		const PLUGIN_CONFIG_URL = "/thinglink/rjw-thinglink-config.php";
 
 		/* --------------------------------------------------
 		Template Functions
@@ -23,7 +23,7 @@
 		function add_thinklink_to_footer(){
 		  $thinglink_id = get_option('thinglink_id');
 		  /*			echo "
-				<!-- Thinglink: Code added by the RJW | Thinglink plugin -->
+				<!-- Thinglink: Code added by the Thinglink plugin -->
 				<script type=\"text/javascript\">
 				   __tlid = '{$thinglink_id}';
 				</script>	
