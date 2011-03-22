@@ -35,7 +35,7 @@ It's a very simple, online tool that allows you to easily create clickable tags 
 * New embed code 
 * Settings dialog now automatically fetches Thinglink ID if the user has a valid session
 
-= 1.0.2 =
+= 1.0.3 =
 * Fixed configuration problems encountered by some users.
 
 == Frequently Asked Questions ==
