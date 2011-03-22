@@ -1,11 +1,11 @@
 <?php
 
 	/*
-	Plugin Name: Official Thinglink Plugin
+	Plugin Name: Thinglink Official Plugin
 	Plugin URI: http://thinglink.com/
 	Description: A simple way to add the Thinglink script to your whole website.
 	Version: 1.0.3
-	Author: Thinglink (Originally Ryan J Wilke, Freelance Interaction Designer, http://ryanjwilke.com)
+	Author: Thinglink
 	Author URI: http://thinglink.com/
 	*/
 
