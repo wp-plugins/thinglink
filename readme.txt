@@ -4,7 +4,7 @@ Donate link: http://ryanjwilke.com/
 Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 
 This plugin provides a very simple way to add the Thinglink script to your whole website.
 
@@ -38,6 +38,10 @@ It's a very simple, online tool that allows you to easily create clickable tags 
 = 1.0.3 =
 * Fixed configuration problems encountered by some users.
 
+= 1.0.4 =
+* Changed the plugin's name
+* Improved usability in configuring the plugin.
+
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
@@ -62,4 +66,7 @@ Re-organizes the plugin files to fix the "invalid header" error for automatic in
 Upgrading shouldn't break any existing installs.
 
 = 1.0.3 =
+Upgrading shouldn't break any existing installs.
+
+= 1.0.4 =
 Upgrading shouldn't break any existing installs.

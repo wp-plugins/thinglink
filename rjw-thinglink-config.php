@@ -25,9 +25,14 @@
     <input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
     </p>
 
+	<div id="save-reminder" style="margin: 20px; border: 2px solid black;width: 320px;padding:10px; text-align:center;">
+		Your Thinglink Id is currently <?php echo(get_option('thinglink_id') ? ("<b>" + get_option('thinglink_id') + "</b>") : "not set"); ?>. You have changed your settings and you must press the save button in order for it to take effect.
+	</div>
    </form>
    
    <script type="text/javascript">
+   function showReminder() { jQuery('#save-reminder').toggle( jQuery('#thinglink_id_input').val() != '<?php echo(get_option('thinglink_id')); ?>'); }
+   jQuery('#thinglink_id_input').change(showReminder);
    function prefill(obj) {
 	   if(obj["name"] && jQuery('#thinglink_id_input').val() == "") {
 		   jQuery('#thinglink_id_input').val(obj["embedCode"]);
@@ -38,8 +43,10 @@
 	   }
    }
    </script>
-   
-   <script type="text/javascript" src="http://www.thinglink.com/api/me?callback=prefill" > </script>
 
+   <script type="text/javascript" src="http://www.thinglink.com/api/me?callback=prefill" > </script>
+   <script type="text/javascript">
+	   showReminder();
+   </script>
    
 </div>
