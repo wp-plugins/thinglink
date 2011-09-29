@@ -5,18 +5,18 @@
 
 		   <h2><?php echo($plugin_name) ?></h2>
 
-   <form method="post" action="options.php">
+   <form method="post" action="options.php" id="tl-setting-form">
    <?php settings_fields( 'rjw-thinglink-group' ); ?>
    <?php do_settings_sections( 'rjw-thinglink-group' ); ?>
    
 
     <div id="login_notification" style="margin: 20px; border: 2px solid black;width: 320px;padding:10px; text-align:center;">
-    	You can find out your ID by logging on to <a href="http://www.thinglink.com">Thinglink</a>.
+    	You can find your ID by logging on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a>.
     </div>
    
     <table class="form-table">
         <tr valign="top">
-        <th scope="row"><b>Your Thinglink ID:</b></th>
+        <th scope="row"><b>Your ThingLink ID:</b></th>
         <td><input type="text" id="thinglink_id_input" name="thinglink_id" value="<?php echo(get_option('thinglink_id')); ?>" style="width:150px;"/></td>
         </tr>
     </table>
@@ -26,7 +26,7 @@
     </p>
 
 	<div id="save-reminder" style="margin: 20px; border: 2px solid black;width: 320px;padding:10px; text-align:center;">
-		Your Thinglink Id is currently <?php echo(get_option('thinglink_id') ? ("<b>" + get_option('thinglink_id') + "</b>") : "not set"); ?>. You have changed your settings and you must press the save button in order for it to take effect.
+		Your ThingLink Id has changed. Please save changes by clicking 'Save Changes' button above.
 	</div>
    </form>
    
@@ -36,10 +36,15 @@
    function prefill(obj) {
 	   if(obj["name"] && jQuery('#thinglink_id_input').val() == "") {
 		   jQuery('#thinglink_id_input').val(obj["embedCode"]);
+		   jQuery('#tl-setting-form').submit();
 	   }
 
 	   if(obj["name"]) {
-		   jQuery("#login_notification").html("You're currently logged on to <a href='http://www.thinglink.com'>Thinglink</a> as <b>" + obj["name"]+ "</b> with Thinglink ID <b>" + obj["embedCode"]+ "</b>");
+		   jQuery("#login_notification").html('You\'re currently logged on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a> as <b>' + obj["name"]+ "</b> with ThingLink ID <b>" + obj["embedCode"]+ "</b>");
+	   }
+	   
+	   if(obj["error"] && jQuery('#thinglink_id_input').val() == "") {
+	       jQuery("#login_notification").html('You are currently not logged in to <a href="http://www.thinglink.com" target="_blank">ThingLink</a>. Please <a href="http://www.thinglink.com" target="_blank">log in</a> first and then <a href="javascript:location.reload(true)">refresh</a> this page. Alternatively enter you ThingLink Id below and click \'Save Changes\'.');
 	   }
    }
    </script>

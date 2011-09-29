@@ -42,6 +42,9 @@ It's a very simple, online tool that allows you to easily create clickable tags 
 * Changed the plugin's name
 * Improved usability in configuring the plugin.
 
+= 1.0.5 =
+* Improved usability in configuring the plugin.
+
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
@@ -69,4 +72,7 @@ Upgrading shouldn't break any existing installs.
 Upgrading shouldn't break any existing installs.
 
 = 1.0.4 =
+Upgrading shouldn't break any existing installs.
+
+= 1.0.5 =
 Upgrading shouldn't break any existing installs.

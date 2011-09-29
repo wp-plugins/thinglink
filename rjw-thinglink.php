@@ -13,7 +13,7 @@
 	class RJW_Thinglink {
 		
 		const PLUGIN_NAME = "Thinglink";
-		const PLUGIN_VERSION = "1.0.4";
+		const PLUGIN_VERSION = "1.0.5";
 		const PLUGIN_CONFIG_HOOK = "rjw-thinglink-config";
 		const PLUGIN_CONFIG_URL = "/thinglink/rjw-thinglink-config.php";
 
@@ -22,16 +22,10 @@
 		-------------------------------------------------- */
 		function add_thinklink_to_footer(){
 		  $thinglink_id = get_option('thinglink_id');
-		  /*			echo "
-				<!-- Thinglink: Code added by the Thinglink plugin -->
-				<script type=\"text/javascript\">
-				   __tlid = '{$thinglink_id}';
-				</script>	
-			<script type=\"text/javascript\" src=\"http://www.thinglink.com/jse/embed.js\"></script>
-			";*/
 		  echo "
 <script type=\"text/javascript\">
 __tlid = '{$thinglink_id}';
+__tlconfig = {hOverflow: false, vOverflow: false};
 setTimeout(function(){(function(d,t){var s=d.createElement(t),x=d.getElementsByTagName(t)[0];
 s.type='text/javascript';s.async=true;s.src=('https:'==document.location.protocol?'https:':'http:')+'//www.thinglink.com/jse/embed.js';
 x.parentNode.insertBefore(s,x);})(document,'script');},0);
