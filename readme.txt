@@ -1,26 +1,34 @@
 === Plugin Name ===
 Contributors: thinglink,ryanjwilke
 Donate link: http://ryanjwilke.com/
-Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
+Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, facebook, twitter, tumblr, social, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
-Tested up to: 3.0.1
+Tested up to: 3.3.1
 Stable tag: 1.0.6
 
-This plugin provides a very simple way to add the Thinglink script to your whole website.
+ThingLink makes your images interactive. Add text, sound and video inside images and drive engagement with photos on your blog or site.
 
 == Description ==
 
-A simple plugin that allows users to connect their entire blog to their Thinglink account.
+With this plugin you can add ThingLink to your whole website and start making your images interactive by tagging them with YouTube, SoundCloud, Spotify, Amazon, eBay and many other Rich Media Tags. Read more on [thinglink.com](http://www.thinglink.com).
 
-**What is Thinglink you ask?**
-It's a very simple, online tool that allows you to easily create clickable tags to any image on the web and share those tagged images on social networks. It's perfect for any publishers, brands, and bloggers who are looking to attach a few extra notes to each image.
+= With ThingLink you can make your images =
+
+* interactive with text & links, video & audio, products from Amazon & eBay and many more
+* shareable on social platforms
+* embeddable anywhere on internet
+* trackable, as how many people have viewed, clicked or embedded the images
 
 == Installation ==
 
-1. Install the thinglink folder into the the plugins directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click on the settings link next to the plugin, and enter your Thinglink ID.
-4. That's it! You're done.
+1. Log in to Wordpress admin (usually ''yourblog.com/wp-admin'')
+1. Select __Add New__ under __Plugins__ in the left panel of your admin ![Select plugin](http://wiki.thinglink.com:8080/attach/Wordpress/wordpress_plugins.png)
+1. Search for ''“Official Thinglink Plugin”'' and install it ![Search for Official Thinglink Plugin](http://wiki.thinglink.com:8080/attach/Wordpress/wordpress_search.png)
+1. After enabling the plugin, select __Thinglink__ from __Plugins__ menu and make sure Thinglink Id is filled in. If not, copy and paste your ID manually from [My Account|http://www.thinglink.com/action/account] page.
+1. Click Save (even if the id was already there).
+1. Open your blog and start tagging your images by clicking the __Edit tags__ icon. ''Remember to be logged into Thinglink in order to tag images'' ![Edit widget](http://wiki.thinglink.com:8080/attach/Wordpress/widget_edit.png)
+
+When publishing new posts, you can also tag in the Preview mode. Tagging from inside the Wordpress editor is not possible.
 
 == Changelog ==
 
@@ -51,10 +59,12 @@ It's a very simple, online tool that allows you to easily create clickable tags 
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
-"Thinglink is a product identification tool that makes it easy to add clickable tags to any image on the web and share the tagged images on social networks. Any publisher or brand can distribute tagged images to bloggers and other publishers and still receive traffic back to the original image source." — Thinglink.com
+ThingLink makes your images interactive. Add text, sound and video inside photos and drive engagement with photos on your blog or site. — Thinglink.com
 
 = Where do I find my Thinglink ID? =
 You can find your Thinglink ID from your account page on [Thinglink.com](http://www.thinglink.com/action/account).
+
+** Find more answers on [ThingLink official FAQ](http://www.thinglink.com/help/Frequently%20Asked%20Questions)**
 
 == Screenshots ==
 
