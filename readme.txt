@@ -59,6 +59,9 @@ When publishing new posts, you can also tag in the Preview mode. Tagging from in
 = 1.0.7 =
 * Improved documentation
 
+= 1.0.8 =
+* Updated embed code to use CDN
+
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
@@ -102,4 +105,7 @@ Upgrading shouldn't break any existing installs.
 Upgrading shouldn't break any existing installs.
 
 = 1.0.7 =
+Upgrading shouldn't break any existing installs.
+
+= 1.0.8 =
 Upgrading shouldn't break any existing installs.
