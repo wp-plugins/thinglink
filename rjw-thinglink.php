@@ -27,7 +27,7 @@
 __tlid = '{$thinglink_id}';
 __tlconfig = {hOverflow: false, vOverflow: false};
 setTimeout(function(){(function(d,t){var s=d.createElement(t),x=d.getElementsByTagName(t)[0];
-s.type='text/javascript';s.async=true;s.src=('https:'==document.location.protocol?'https:':'http:')+'//www.thinglink.com/jse/embed.js';
+s.type='text/javascript';s.async=true;s.src='//cdn.thinglink.me/jse/embed.js';
 x.parentNode.insertBefore(s,x);})(document,'script');},0);
 </script>";
 		}
