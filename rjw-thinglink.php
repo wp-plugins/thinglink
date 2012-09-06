@@ -4,7 +4,7 @@
 	Plugin Name: Thinglink Official Plugin
 	Plugin URI: http://thinglink.com/
 	Description: A simple way to add the Thinglink script to your whole website. Go to <a href="plugins.php?page=rjw-thinglink-config">settings</a>.
-	Version: 1.0.7
+	Version: 1.0.10
 	Author: Thinglink
 	Author URI: http://thinglink.com/
 	*/
@@ -13,7 +13,7 @@
 	class RJW_Thinglink {
 		
 		const PLUGIN_NAME = "Thinglink";
-		const PLUGIN_VERSION = "1.0.7";
+		const PLUGIN_VERSION = "1.0.10";
 		const PLUGIN_CONFIG_HOOK = "rjw-thinglink-config";
 		const PLUGIN_CONFIG_URL = "/thinglink/rjw-thinglink-config.php";
 
@@ -27,7 +27,7 @@
 __tlid = '{$thinglink_id}';
 __tlconfig = {hOverflow: false, vOverflow: false};
 setTimeout(function(){(function(d,t){var s=d.createElement(t),x=d.getElementsByTagName(t)[0];
-s.type='text/javascript';s.async=true;s.src=('https:'==document.location.protocol?'https:':'http:')+'//www.thinglink.com/jse/embed.js';
+s.type='text/javascript';s.async=true;s.src='//cdn.thinglink.me/jse/embed.js';
 x.parentNode.insertBefore(s,x);})(document,'script');},0);
 </script>";
 		}
