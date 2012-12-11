@@ -9,6 +9,7 @@
 	Author URI: http://thinglink.com/
 	*/
 
+	require_once 'thinglink_shortcode.php';
 
 	class RJW_Thinglink {
 		
