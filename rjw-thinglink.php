@@ -14,7 +14,7 @@
 	class RJW_Thinglink {
 		
 		const PLUGIN_NAME = "Thinglink";
-		const PLUGIN_VERSION = "1.0.10";
+		const PLUGIN_VERSION = "1.1.01";
 		const PLUGIN_CONFIG_HOOK = "rjw-thinglink-config";
 		const PLUGIN_CONFIG_URL = "/thinglink/rjw-thinglink-config.php";
 
