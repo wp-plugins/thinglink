@@ -80,6 +80,10 @@ When publishing new posts, you can also tag in the Preview mode. Tagging from in
 = 1.1.02 =
 * Version bump
 
+= 1.1.03 =
+* Shortcode support for "w" parameter
+* Shortcode uses $content_width global for width if available and not specificly set.
+
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
@@ -144,4 +148,7 @@ Upgrading shouldn't break any existing installs.
 Upgrading shouldn't break any existing installs.
 
 = 1.1.02 =
+Upgrading shouldn't break any existing installs.
+
+= 1.1.03 =
 Upgrading shouldn't break any existing installs.
