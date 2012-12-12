@@ -4,7 +4,7 @@ Donate link: http://ryanjwilke.com/
 Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, facebook, twitter, tumblr, social, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
 Tested up to: 3.4.1
-Stable tag: 1.1.02
+Stable tag: 1.1.04
 
 ThingLink makes your images interactive. Add text, sound and video inside images and drive engagement with photos on your blog or site.
 
@@ -84,6 +84,9 @@ When publishing new posts, you can also tag in the Preview mode. Tagging from in
 * Shortcode support for "w" parameter
 * Shortcode uses $content_width global for width if available and not specificly set.
 
+= 1.1.04 = 
+* Rollback shortcode as it was causing problems
+
 == Frequently Asked Questions ==
 
 = What is Thinglink? =
@@ -151,4 +154,7 @@ Upgrading shouldn't break any existing installs.
 Upgrading shouldn't break any existing installs.
 
 = 1.1.03 =
+Upgrading shouldn't break any existing installs.
+
+= 1.1.04 =
 Upgrading shouldn't break any existing installs.
