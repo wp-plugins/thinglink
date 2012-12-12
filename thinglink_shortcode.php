@@ -1,5 +1,4 @@
 <?php
-include('shortcodes.php'); 
 
 	/*
 	Thinglink Shortcode definition
