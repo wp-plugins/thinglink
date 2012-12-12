@@ -33,7 +33,7 @@ function ThinglinkShortCode($params = array()) {
 		else
 			return "<p> unknown thinglink object '$scene'</p>";
 	}
-	return <<<"EOS"
+	return <<<EOS
 <img src="//cdn.thinglink.me/api/image/$scene/230/230/none#tl-$scene;" width="$w" class="alwaysThinglink" />
 <script async charset="utf-8" src="//cdn.thinglink.me/jse/embed.js"></script>
 EOS;
