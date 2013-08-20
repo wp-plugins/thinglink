@@ -3,8 +3,8 @@ Contributors: thinglink,ryanjwilke
 Donate link: http://ryanjwilke.com/
 Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, facebook, twitter, tumblr, social, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.4
+Tested up to: 3.6
+Stable tag: 1.4.1
 
 ThingLink makes your images interactive. Add text, sound and video inside images and drive engagement with photos on your blog or site.
 
@@ -170,3 +170,6 @@ Upgrading shouldn't break any existing installs.
 
 = 1.4 =
 Upgrading shouldn't break any existing installs.
+
+= 1.4.1 =
+Updated how tlid is set, shouldn't brake existing installs.
