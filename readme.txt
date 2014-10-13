@@ -178,5 +178,5 @@ Upgrading shouldn't break any existing installs.
 = 1.4.1 =
 Updated how tlid is set, shouldn't brake existing installs.
 
-= 1.4.1 =
+= 1.4.2 =
 Upgrading shouldn't break any existing installs.
