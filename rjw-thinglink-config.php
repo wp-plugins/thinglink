@@ -11,13 +11,15 @@
    
 
     <div id="login_notification" style="margin: 20px; border: 2px solid black;width: 320px;padding:10px; text-align:center;">
-    	You can find your ID by logging on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a>.
+        For using ThingLink plugin you need to specify your ThingLink ID. <br/><br/>
+    	Log on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a>, visit this Settings page again and copy-paste the
+        detected ID to the Settings field below.
     </div>
    
     <table class="form-table">
         <tr valign="top">
-        <th scope="row"><b>Your ThingLink ID:</b></th>
-        <td><input type="text" id="thinglink_id_input" name="thinglink_id" value="<?php echo(get_option('thinglink_id')); ?>" style="width:150px;"/></td>
+            <th scope="row"><b>Your ThingLink ID:</b></th>
+            <td><input type="text" id="thinglink_id_input" name="thinglink_id" value="<?php echo(get_option('thinglink_id')); ?>" style="width:150px;"/></td>
         </tr>
     </table>
     
@@ -40,7 +42,8 @@
 	   }
 
 	   if(obj["name"]) {
-		   jQuery("#login_notification").html('You\'re currently logged on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a> as <b>' + obj["name"]+ "</b> with ThingLink ID <b>" + obj["embedCode"]+ "</b>");
+		   jQuery("#login_notification").html('You\'re currently logged on to <a href="http://www.thinglink.com" target="_blank">ThingLink</a> as <b>' + obj["name"]+ "</b> with ThingLink ID <b>" + obj["embedCode"]+ "</b>.<br/><br/>" +
+            "If it is your ThingLink account for this website, make sure the Setting field below has the same value.");
 	   }
 	   
 	   if(obj["error"] && jQuery('#thinglink_id_input').val() == "") {
