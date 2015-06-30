@@ -3,8 +3,8 @@ Contributors: thinglink,ryanjwilke
 Donate link: http://ryanjwilke.com/
 Tags: Thinglink, images, photos, photography, thumbnails, comments, links, tags, tagging, tag, facebook, twitter, tumblr, social, RJW, Ryan Wilke, Ryan J Wilke, Ryan James Wilke, Chez Pim, thing, things
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.4.3
+Tested up to: 4.2
+Stable tag: 1.4.4
 
 ThingLink makes your images interactive. Add text, sound and video inside images and drive engagement with photos on your blog or site.
 
@@ -99,6 +99,8 @@ When publishing new posts, you can also tag in the Preview mode. Tagging from in
 = 1.4.3 = 
 * Tested for WordPress 4.1
 
+= 1.4.4 =
+* Tested for WordPress 4.2
 
 == Frequently Asked Questions ==
 
@@ -185,4 +187,7 @@ Updated how tlid is set, shouldn't brake existing installs.
 Upgrading shouldn't break any existing installs.
 
 = 1.4.3 =
+Upgrading shouldn't break any existing installs.
+
+= 1.4.4 =
 Upgrading shouldn't break any existing installs.
